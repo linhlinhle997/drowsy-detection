@@ -13,7 +13,7 @@ Drowsy detection using Keras and convolution neural networks.
 * times
 
 ## Datasets:
-Download the [Eye dataset](http://parnec.nuaa.edu.cn/xtan/data/datasets/dataset_B_Eye_Images.rar) and unzip to the ```bash ./data/ ``` folder. We will have four folders:
+Download the [Eye dataset](http://parnec.nuaa.edu.cn/xtan/data/datasets/dataset_B_Eye_Images.rar) and unzip to the ``` ./data/ ``` folder. We will have four folders:
 * closedLeftEyes
 * closedRightEyes
 * openLeftEyes

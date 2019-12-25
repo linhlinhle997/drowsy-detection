@@ -3,21 +3,21 @@
 Drowsy detection using Keras and convolution neural networks.
 
 ## Requirement
-*tensorflow-gpu
-*keras
-*opencv-contrib-python
-*dlib
-*matplotlib
-*numpy
-*pygame
-*times
+* tensorflow-gpu
+* keras
+* opencv-contrib-python
+* dlib
+* matplotlib
+* numpy
+* pygame
+* times
 
 ## Datasets:
 Download the [Eye dataset](http://parnec.nuaa.edu.cn/xtan/data/datasets/dataset_B_Eye_Images.rar) and unzip to the ```bash ./data/ ``` folder. We will have four folders:
-*closedLeftEyes
-*closedRightEyes
-*openLeftEyes
-*openRightEyes
+* closedLeftEyes
+* closedRightEyes
+* openLeftEyes
+* openRightEyes
 
 Download [this file](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat) and place into the ```bash ./input/ ``` folder. Rename it with trained_data.dat
 
@@ -32,5 +32,5 @@ Weights and json are automatically downloaded, and place into the ``` bash ./tra
 Press Q to quit the application
 
 ## Result
-*Video saved at ``` bash ./output/output_video/ ```
-*Text saved at ``` bash ./output/output_tet/ ```
+* Video saved at ``` bash ./output/output_video/ ```
+* Text saved at ``` bash ./output/output_tet/ ```

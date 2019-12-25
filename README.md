@@ -11,6 +11,7 @@ Drowsy detection using Keras and convolution neural networks.
 * numpy
 * pygame
 * times
+* six
 
 ## Datasets:
 Download the [Eye dataset](http://parnec.nuaa.edu.cn/xtan/data/datasets/dataset_B_Eye_Images.rar) and unzip to the ``` ./data/ ``` folder. We will have four folders:

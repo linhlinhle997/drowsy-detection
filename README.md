@@ -27,10 +27,11 @@ Download [this file](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openf
 Weights and json are automatically downloaded, and place into the ``` ./trained_model/ ```
 
 ## Testing Real-time with Camera
-``` bash python drowsy.py ```
+* Displayed: ```python drowsy.py ``` 
+* Not displayed: ```python drowsy.py -d 0```
 
 Press Q to quit the application
 
 ## Result
-* Video saved at ``` ./output/output_video/ ```
-* Text saved at ``` ./output/output_tet/ ```
+* Video saved at ``` ./output/output_video/ ``` (Only save videos when drowsiness is detected)
+* Text saved at ``` ./output/output_tet/ ``` (Save current time, eye status, number of faces, paths of video if detected drowsiness)

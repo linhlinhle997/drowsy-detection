@@ -24,7 +24,7 @@ Download [this file](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openf
 ## Files included:
 ``` trainModel.ipynb ``` : Preprocess the data by converting the images to grayscale and dividing them into training and testing sets. Train a CNN based on the training data.
 
-Weights and json are automatically downloaded, and place into the ``` ./trained_model/ ```
+Weights and json save at ``` ./trained_model/ ```
 
 ## Testing Real-time with Camera
 * Displayed: ```python drowsy.py ``` 

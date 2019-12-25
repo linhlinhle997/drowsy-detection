@@ -19,12 +19,12 @@ Download the [Eye dataset](http://parnec.nuaa.edu.cn/xtan/data/datasets/dataset_
 * openLeftEyes
 * openRightEyes
 
-Download [this file](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat) and place into the ```bash ./input/ ``` folder. Rename it with trained_data.dat
+Download [this file](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat) and place into the ``` ./input/ ``` folder. Rename it with trained_data.dat
 
 ## Files included:
-``` bash trainModel.ipynb ``` : Preprocess the data by converting the images to grayscale and dividing them into training and testing sets. Train a CNN based on the training data.
+``` trainModel.ipynb ``` : Preprocess the data by converting the images to grayscale and dividing them into training and testing sets. Train a CNN based on the training data.
 
-Weights and json are automatically downloaded, and place into the ``` bash ./trained_model/ ```
+Weights and json are automatically downloaded, and place into the ``` ./trained_model/ ```
 
 ## Testing Real-time with Camera
 ``` bash python drowsy.py ```
@@ -32,5 +32,5 @@ Weights and json are automatically downloaded, and place into the ``` bash ./tra
 Press Q to quit the application
 
 ## Result
-* Video saved at ``` bash ./output/output_video/ ```
-* Text saved at ``` bash ./output/output_tet/ ```
+* Video saved at ``` ./output/output_video/ ```
+* Text saved at ``` ./output/output_tet/ ```

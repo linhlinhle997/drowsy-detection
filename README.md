@@ -19,7 +19,7 @@ Download the [Eye dataset](http://parnec.nuaa.edu.cn/xtan/data/datasets/dataset_
 * openLeftEyes
 * openRightEyes
 
-Download [this file](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat) and place into the ``` ./input/ ``` folder. Rename it with trained_data.dat
+Download [this file](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat) and place into the ``` ./input/ ``` folder. Rename it with ```trained_data.dat```
 
 ## Files included:
 ``` trainModel.ipynb ``` : Preprocess the data by converting the images to grayscale and dividing them into training and testing sets. Train a CNN based on the training data.
